@@ -41,3 +41,6 @@ All the source code has been upgraded to [v1.0.0](https://github.com/tensorflow/
 
 The conversion is done by my another project [tf0to1](https://github.com/machrisaa/tf0to1)
 
+
+## this repo update:
+  try to run trainable VGG19 model in multiworkers mode. Add file w0.py, w1.py and run them parallel can see the result. Since this repo do not contain the train data so I just reuse one single img for many time to do the training.  
