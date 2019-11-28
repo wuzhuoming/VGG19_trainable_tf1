@@ -43,4 +43,5 @@ The conversion is done by my another project [tf0to1](https://github.com/machris
 
 
 ## this repo update:
-  try to run trainable VGG19 model in multiworkers mode. Add file w0.py, w1.py and run them parallel can see the result. Since this repo do not contain the train data so I just reuse one single img for many time to do the training.  
+  Try to run trainable VGG19 model in multiworkers mode. Add file w0.py, w1.py and run them parallel can see the result. Since this repo do not contain the train data so I just reuse one single img for many time to do the training.  
+  The pretrain model weight of VGG19 can be downloaded from here: https://github.com/tensorlayer/pretrained-models/blob/master/models/vgg19.npy, download it and put it in the same folder of w0.py.
